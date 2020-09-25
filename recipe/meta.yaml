@@ -1,5 +1,5 @@
 {% set name = "bgcargo" %}
-{% set version = "0.2.7" %}
+{% set version = "0.2.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bgcArgo-{{ version }}.tar.gz
-  sha256: 12d5c41ae11b9713ea09a3666334eceadb679de4fe011b30931cdf21c8ee57e0
+  sha256: 1108ea495a23ec94f10adcb215a67d810f1616003f64cb76f4351d2c7d4aeb80
 
 build:
   number: 0
